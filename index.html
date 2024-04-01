@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card</title>     
+    <title>Card</title>
+    <style>
+        @charset "UTF-8";
+
+* .div img {
+filter: saturate(5%);
+width: 15%;
+border: 2px solid whitesmoke;
+height: 100%;
+object-fit: cover;
+border-radius: 12px;
+transition: all ease 3s;
+cursor: pointer;
+
+}
+.div img:hover {
+filter: saturate(100%);
+width: 100%;
+}
+    </style>
 </head>
 <body>
+    <h1>Card</h1>
+    <br>
     <div class="div">
         <img src="Imagem do WhatsApp de 2024-03-27 à(s) 20.08.12_750cf4d9.jpg" alt="">
         <img src="Imagem do WhatsApp de 2024-03-27 à(s) 20.08.13_ba3fff3e.jpg" alt="">
